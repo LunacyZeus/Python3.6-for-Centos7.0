@@ -1,10 +1,11 @@
 #Centos 7.0 安装Python3.6脚本
 #作者: LunacyZeus
-#Git主页: https://github.com/LunacyZeus/Python3.6-for-Centos7.0
+#Git主页: https://github.com/LunacyZeus
 
-echo -e "Python3.6 for Centos 7.0 一键安装脚本\nGitHub主页地址: https://github.com/LunacyZeus/Python3.6-for-Centos7.0\n这个脚本是我在经过多次测试后做出来的,安装了Python要用的所有的必需库(如有缺少,请指出,谢谢!),不会出现在使用中需要某些库而重新编译安装Python的蛋疼事情\n\nPs: 本脚本在腾讯云亲测可用\n  遇到问题请在Github提交BUG\n\n"
+echo "Python3.6 for Centos 7.0 一键安装脚本\nGitHub主页地址: https://github.com/LunacyZeus\n这个脚本是我在经过多次测试后做出来的,安装了Python要用的所有的必需库(如有缺少,请指出,谢谢!),不会出现在使用中需要某些库而重新编译安装Python的蛋疼事情\n\nPs: 本脚本在腾讯云亲测可用\n  遇到问题请在Github提交BUG"
 
 read -p "请按任意键以继续" var
+
 
 echo "Let's Go..."
 
