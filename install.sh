@@ -9,6 +9,10 @@ read -p "请按任意键以继续" var
 
 echo "Let's Go..."
 
+echo "设定字符集"
+export LANG=zh_CN.UTF-8
+export LANGUAGE=zh_CN.UTF-8
+
 echo "安装开发环境工具..."
 yum groupinstall -y "Development tools"
 
