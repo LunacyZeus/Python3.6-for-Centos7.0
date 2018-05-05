@@ -8,7 +8,7 @@
 好了后直接输入python3 就能用了
 
 # 修改后yum不可用解决方案 (~~自行百度~~)
- #! /usr/bin/python 修改为 #! /usr/bin/python2.7
+通过vi或者nano打开/usr/bin/yum文件并将#! /usr/bin/python 修改为 #! /usr/bin/python2.7
 
 # Centos7.0更换yum源
     mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
