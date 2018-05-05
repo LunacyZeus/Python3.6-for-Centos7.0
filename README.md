@@ -10,6 +10,9 @@
 好了后直接输入python3 就能用了
 
 # 关于pip使用,
+本脚本自带pip 输入命令python3 -m pip即可运行。在这里推荐一个比较实用的更换pypi源的工具  
+**pqi** 项目地址:https://github.com/Fenghuapiao/PyQuickInstall  
+不多说，这是一个能切换pypi源的工具，很实用！！！   
 # 修改后yum不可用解决方案 (~~自行百度~~)
 通过vi或者nano打开/usr/bin/yum文件并将#! /usr/bin/python 修改为 #! /usr/bin/python2.7
 
