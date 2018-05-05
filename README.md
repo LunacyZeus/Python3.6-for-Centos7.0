@@ -18,7 +18,7 @@
     yum clean all
     yum makecache  
 
-#接下来要做的 
-1.提供多个python版本的支持(可以选择使用官方或者七牛镜像源) 
-2.提供uwsgi+django+nginx的一键部署 
-....... 
+#接下来要做的  
+1.提供多个python版本的支持(可以选择使用官方或者七牛镜像源)  
+2.提供uwsgi+django+nginx的一键部署  
+.......  
