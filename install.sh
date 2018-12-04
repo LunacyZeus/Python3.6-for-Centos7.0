@@ -10,8 +10,7 @@ yum groupinstall -y "Development tools"
 yum install -y nano nginx screen 
 yum install -y sqlite-devel ncurses-devel ncurses-libs zlib-devel mysql-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel openssl-devel
 
-wget -O python.tar.xz https://www.python.org/ftp/python/3.7.1/Python-3.7.1.tar.xz && tar xvJf python.tar.xz && cd Python-3.7.1
-
+wget -O python.tar.xz https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tar.xz && tar xvJf python.tar.xz && cd Python-3.6.6
 ./configure
 make&& make install
 
