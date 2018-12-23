@@ -4,7 +4,7 @@
 注意事项:**本脚本会默认安装screen和nano~**
 
 **2018/12/24更新 *"
-yum install python36可以直接安装python3.6.6 安装后输入python36进入shell
+yum install python36可以直接安装python3.6.6 安装后输入python36进入shell  
 使用教程: 
 `wget --no-check-certificate https://raw.githubusercontent.com/LunacyZeus/Python3.6-for-Centos7.0/master/install.sh && sh install.sh`
  
